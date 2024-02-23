@@ -111,4 +111,6 @@ Array flow_direction_d8(const Array &z);
  */
 std::vector<Array> flow_direction_dinf(const Array &z, float talus_ref);
 
+Array flow_fixing(const Array &z);
+
 } // namespace hmap
